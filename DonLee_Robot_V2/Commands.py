@@ -133,14 +133,14 @@ async def about(bot: DonLee_Robot_V2, msg: Import.Msg):
 async def sub(bot: DonLee_Robot_V2, msg: Import.Msg):
         button = [[     
           Import.Button("🖥️Dev💻", url="t.me/sarbudeen786"),
-          Import.Button("𝖲𝗎𝗉𝗉𝗈𝗋𝗍🤝", url="t.me/thanimaiduporr"),
+          Import.Button("𝖲𝗎𝗉𝗉𝗈𝗋𝗍🤝", url="t.me/thanimaisuuport),
 
 
           ],[
-          Import.Button("📢𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://www.youtube.com/watch?v=NrbMc93aCzA"),
+          Import.Button("📢𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="t.me/thanimaibots"),
           Import.Button("𝖸𝗈𝗎𝖳𝗎𝖻𝖾💞", url="https://www.youtube.com/watch?v=NrbMc93aCzA")
           ],[
-          Import.Button("📦𝖦𝗂𝗍𝗁𝗎𝖻", url="http://github.com/PR0FESS0R_99"),
+          Import.Button("📦𝖦𝗂𝗍𝗁𝗎𝖻", url="http://github.com/lonelysing"),
           Import.Button("𝖨𝗇𝗌𝗍𝖺😁", url="https://www.instagram.com/mrk_yt_")
           ],[
           Import.Button("𝖢𝗅𝗈𝗌𝖾🗑️", callback_data="close")
