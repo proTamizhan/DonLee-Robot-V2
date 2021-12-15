@@ -78,13 +78,13 @@ async def start(bot: DonLee_Robot_V2, msg: Import.Msg):
 @DonLee_Robot_V2.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot: DonLee_Robot_V2, msg: Import.Msg):
         button = [[
-          Import.Button("𝖠𝗎𝗍𝗈𝖥𝗂𝗅𝗍𝖾𝗋", callback_data="autofilter"),
-          Import.Button("𝖬𝖺𝗇𝗎𝖺𝗅𝖥𝗂𝗅𝗍𝖾𝗋", callback_data="filter"),
-          Import.Button("𝖢𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗈𝗇𝗌", callback_data="connection")
+          Import.Button("🌀𝖠𝗎𝗍𝗈𝖥𝗂𝗅𝗍𝖾𝗋🌀", callback_data="autofilter"),
+          Import.Button("⛏️𝖬𝖺𝗇𝗎𝖺𝗅𝖥𝗂𝗅𝗍𝖾𝗋⛏️", callback_data="filter"),
+          Import.Button("🔗𝖢𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗈𝗇𝗌🔗", callback_data="connection")
           ],[
-          Import.Button("𝖡𝖺𝗇", callback_data="ban"),
-          Import.Button("𝖬𝗎𝗍𝖾", callback_data="mute"),
-          Import.Button("𝖯𝗎𝗋𝗀𝖾", callback_data="purge")
+          Import.Button("🚫𝖡𝖺𝗇🚫", callback_data="ban"),
+          Import.Button("🔕𝖬𝗎𝗍𝖾🔕", callback_data="mute"),
+          Import.Button("❕𝖯𝗎𝗋𝗀𝖾❕", callback_data="purge")
           ],[
           Import.Button("𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝖯𝗁", callback_data="telegraph"),
           Import.Button("𝖳𝖳𝖲", callback_data="tts"),
@@ -95,8 +95,8 @@ async def help(bot: DonLee_Robot_V2, msg: Import.Msg):
           Import.Button("𝖶𝖾𝗅𝖼𝗈𝗆𝖾", callback_data="welcome")
           ],[
           Import.Button("🏠𝖧𝗈𝗆𝖾", callback_data="home"),
-          Import.Button("𝖲𝗍𝖺𝗍𝗎𝗌", callback_data="status"),
-          Import.Button("𝖠𝖻𝗈𝗎𝗍🤠", callback_data="about")
+          Import.Button("📶𝖲𝗍𝖺𝗍𝗎𝗌📶", callback_data="status"),
+          Import.Button("😎𝖠𝖻𝗈𝗎𝗍🤠", callback_data="about")
           ]]
         await bot.send_photo(
             chat_id=msg.chat.id,
@@ -132,8 +132,10 @@ async def about(bot: DonLee_Robot_V2, msg: Import.Msg):
 @DonLee_Robot_V2.on_message(filters.command(["sub", "subscribe"]) & filters.private, group=1)
 async def sub(bot: DonLee_Robot_V2, msg: Import.Msg):
         button = [[     
-          Import.Button("🖥️𝖵𝗂𝖽𝖾𝗈", url="https://www.youtube.com/watch?v=NrbMc93aCzA"),
-          Import.Button("𝖲𝗎𝗉𝗉𝗈𝗋𝗍🤝", url="https://www.youtube.com/watch?v=NrbMc93aCzA")
+          Import.Button("🖥️Dev💻", url="t.me/sarbudeen786"),
+          Import.Button("𝖲𝗎𝗉𝗉𝗈𝗋𝗍🤝", url="t.me/thanimaiduporr"),
+
+
           ],[
           Import.Button("📢𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://www.youtube.com/watch?v=NrbMc93aCzA"),
           Import.Button("𝖸𝗈𝗎𝖳𝗎𝖻𝖾💞", url="https://www.youtube.com/watch?v=NrbMc93aCzA")
