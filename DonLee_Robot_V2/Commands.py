@@ -90,8 +90,8 @@ async def help(bot: DonLee_Robot_V2, msg: Import.Msg):
           Import.Button("𝖳𝖳𝖲", callback_data="tts"),
           Import.Button("𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽", callback_data="sticker")
           ],[
-          Import.Button("𝖢𝗈𝗏𝗂𝖽", callback_data="covid"),
-          Import.Button("𝖱𝖾𝗉𝗈𝗋𝗍", callback_data="report"),
+          Import.Button("💉𝖢𝗈𝗏𝗂𝖽💉", callback_data="covid"),
+          Import.Button("⚠️𝖱𝖾𝗉𝗈𝗋𝗍⚠️", callback_data="report"),
           Import.Button("𝖶𝖾𝗅𝖼𝗈𝗆𝖾", callback_data="welcome")
           ],[
           Import.Button("🏠𝖧𝗈𝗆𝖾", callback_data="home"),
