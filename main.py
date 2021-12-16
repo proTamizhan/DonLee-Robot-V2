@@ -47,3 +47,4 @@ class DonLee_Robot(Client):
 
 app = DonLee_Robot()
 app.run()
+idle()
